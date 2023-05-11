@@ -1,0 +1,89 @@
+body {
+    background-color: #f0f0f0;
+    /* set default background color */
+    color: black;
+    transition: 0.5s;
+}
+
+body.dark {
+    background-color: #1e1e1e;
+    /* set background color for dark mode */
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    background: #33c481;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.navbar ul li a:focus::after {
+    width: 100%;
+}
+
+.toogle {
+    cursor: pointer;
+}
+
+.toogle p{
+    font-size: 1.5rem;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.paragraph p {
+    font-size: 0.9rem;
+    margin: 0;
+}
