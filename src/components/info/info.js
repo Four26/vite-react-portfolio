@@ -74,7 +74,7 @@ export const info = {
         },
         {
             title: 'Project 2',
-            live: 'https://vite-react-portfolio-three.vercel.app/',
+            live: 'https://frankportfolio-four26.vercel.app/',
             source: 'https://github.com/Four26',
             image: mock2
         },
