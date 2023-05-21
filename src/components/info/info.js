@@ -74,7 +74,7 @@ export const info = {
         },
         {
             title: 'Project 2',
-            live: 'https://video-search-one.vercel.app/',
+            live: 'https://vite-react-portfolio-three.vercel.app/',
             source: 'https://github.com/Four26',
             image: mock2
         },
