@@ -9,8 +9,14 @@ const Terminal = (props) => {
     const { text } = props;
 
     return (
-        <Box component={'section'} className={classNames(Style.terminal, Style.shadowed)}
-            width={{ xs: '80%', md: '50%' }} borderRadius={'0.5rem'} mb={'4rem'}>
+        <Box
+            component={'section'}
+            className={classNames(Style.terminal, Style.shadowed)}
+            width={{ xs: '80%', md: '50%' }}
+            borderRadius={'0.5rem'}
+            mb={'4rem'}
+            fontFamily={'Roboto, sans-serif'} // Set the font to Roboto sans-serif
+        >
             <Box sx={{ backgroundColor: '#8c8c8c' }} p={'0.5rem'} borderRadius={'0.5rem 0.5rem 0 0'}
                 fontSize={'1rem'}>
                 <i className={classNames(iconClass, Style.red)} />
@@ -25,4 +31,4 @@ const Terminal = (props) => {
     );
 }
 
-export default Terminal
+export default Terminal;

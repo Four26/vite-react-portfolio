@@ -3,7 +3,7 @@ import "./mainlayout.css";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
-import Projects from "./projects/Projects";
+import Portfolio from "./projects/Portfolio";
 
 const MainLayout = () => {
     const [themeMode, setThemeMode] = useState("light");
@@ -28,7 +28,7 @@ const MainLayout = () => {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/projects">Projects</Link>
+                        <Link to="/portfolio">Projects</Link>
                     </li>
                 </ul>
                 <div className="toogle" onClick={handleToggle}>
@@ -38,7 +38,7 @@ const MainLayout = () => {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
-                <Route exact path="/projects" element={<Projects />} />
+                <Route exact path="/portfolio" element={<Portfolio />} />
             </Routes>
             <div className="footer">
                 <div className="paragraph">

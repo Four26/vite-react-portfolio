@@ -1,5 +1,7 @@
 import self from '../../assets/images/profile.png';
-
+import mock1 from '../../assets/images/mock1.png';
+import mock2 from '../../assets/images/mock2.png';
+import mock3 from '../../assets/images/mock3.png';
 
 export const info = {
     firstName: 'Franklin',
@@ -61,6 +63,26 @@ export const info = {
         {
             label: 'movies',
             emoji: '🎦'
+        }
+    ],
+    portfolio: [
+        {
+            title: 'Project 1',
+            live: 'https://video-search-one.vercel.app/',
+            source: 'https://github.com/Four26',
+            image: mock1
+        },
+        {
+            title: 'Project 2',
+            live: 'https://video-search-one.vercel.app/',
+            source: 'https://github.com/Four26',
+            image: mock2
+        },
+        {
+            title: 'Project 3',
+            live: 'https://csv-website.vercel.app/',
+            source: 'https://github.com/Four26',
+            image: mock3
         }
     ]
 }
