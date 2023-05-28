@@ -44,11 +44,11 @@ export const info = {
             label: 'twitter'
         }
     ],
-    bio: 'Hello! I am Franklin Abonero, I am a Computer Engineering graduate in Surigao del Norte State University. I am a Frontend Developer with 4 months of experience in developing websites and web applications. I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. All of my work is produced locally from the Philippines. I am currently available for freelance projects.',
+    bio: "m Franklin Abonero, a Computer Engineering graduate specializing in frontend development. I have expertise in HTML, CSS, JavaScript, and React, with a focus on creating visually appealing and responsive websites. Additionally, I'm proficient in backend technologies like PHP, WordPress, Express, and Node.js, enabling me to develop dynamic web applications.I'm actively seeking opportunities to contribute my skills and collaborate on high-quality web projects. If you have any questions or suitable opportunities, please feel free to reach out. I'm eager to apply my abilities and make a valuable impact in a company.",
     skills:
     {
         proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3'],
-        exposedTo: ['nodejs', 'php', 'codeigniter', 'express', 'socket', 'MySQL', 'arduino', 'RaspberryPie']
+        exposedTo: ['nodejs', 'php', 'codeigniter', 'express', 'socket.io', 'MySQL', 'arduino', 'RaspberryPie']
     }
     ,
     hobbies: [
