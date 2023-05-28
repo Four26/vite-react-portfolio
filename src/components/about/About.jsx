@@ -9,8 +9,6 @@ const About = () => {
     const firstName = info.firstName.toLowerCase()
 
     function aboutMeText() {
-        const bioParagraphs = info.bio.split("\n"); // split bio into paragraphs using newline characters
-
         return (
             <>
                 <p>
@@ -20,15 +18,13 @@ const About = () => {
                     </span>{" "}
                     cat about{firstName}{" "}
                 </p>
-                {bioParagraphs.map((paragraph, index) => ( // map each paragraph into a <p> element
-                    <p key={index} style={{ textAlign: "justify" }}>
-                        <span style={{ color: info.baseColor }}>
-                            about {firstName}{" "}
-                            <span className={Style.green}>(main)</span> ${" "}
-                        </span>
-                        {paragraph}
-                    </p>
-                ))}
+                <p style={{ textAlign: "justify" }}>
+                    <span style={{ color: info.baseColor }}>
+                        about {firstName}{" "}
+                        <span className={Style.green}>(main)</span> ${" "}
+                    </span>
+                    {info.bio}
+                </p>
             </>
         );
     }
