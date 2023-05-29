@@ -3,6 +3,7 @@ import mock1 from '../../assets/images/mock1.png';
 import mock2 from '../../assets/images/mock2.png';
 import mock3 from '../../assets/images/mock3.png';
 import mock4 from '../../assets/images/mock4.png';
+import mock5 from '../../assets/images/mock5.png';
 
 export const info = {
     firstName: 'Franklin',
@@ -94,6 +95,11 @@ export const info = {
             title: 'Drawing App',
             live: 'https://drawing-app-five-delta.vercel.app/',
             image: mock4
+        },
+        {
+            title: 'Image Search App',
+            live: 'https://image-api-ve6r.vercel.app/',
+            image: mock5
         }
     ]
 }
