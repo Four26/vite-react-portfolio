@@ -39,7 +39,7 @@ function PortfolioBlock(props) {
                     }}
                 />
             </Box>
-            <h1 style={{ fontSize: '2rem', textAlign: 'center', fontFamily: 'Roboto, sans-serif', margin: '0' }}>{title}</h1>
+            <h1 style={{ fontSize: '1.5rem', textAlign: 'center', fontFamily: 'Roboto, sans-serif', margin: '0' }}>{title}</h1>
             <Box
                 className="portfolio"
                 display="flex"

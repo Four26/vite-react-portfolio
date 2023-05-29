@@ -2,6 +2,7 @@ import self from '../../assets/images/profile.png';
 import mock1 from '../../assets/images/mock1.png';
 import mock2 from '../../assets/images/mock2.png';
 import mock3 from '../../assets/images/mock3.png';
+import mock4 from '../../assets/images/mock4.png';
 
 export const info = {
     firstName: 'Franklin',
@@ -72,22 +73,27 @@ export const info = {
     ],
     portfolio: [
         {
-            title: 'Project 1',
+            title: 'Video Search App',
             live: 'https://video-search-one.vercel.app/',
             source: 'https://github.com/Four26',
             image: mock1
         },
         {
-            title: 'Project 2',
+            title: 'Personal Portfolio',
             live: 'https://frankportfolio-four26.vercel.app/',
             source: 'https://github.com/Four26',
             image: mock2
         },
         {
-            title: 'Project 3',
+            title: 'Role CSV Website',
             live: 'https://csv-website.vercel.app/',
             source: 'https://github.com/Four26',
             image: mock3
+        },
+        {
+            title: 'Drawing App',
+            live: 'https://drawing-app-five-delta.vercel.app/',
+            image: mock4
         }
     ]
 }
