@@ -42,7 +42,7 @@ const MainLayout = () => {
             </Routes>
             <div className="footer">
                 <div className="paragraph">
-                    <p>Created with ❤️ by Franklin Abonero</p>
+                    <p>Created with 💚 by Franklin Abonero</p>
                     <p>©️ 2023</p>
                 </div>
             </div>
