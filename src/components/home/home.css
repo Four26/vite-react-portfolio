@@ -1,4 +1,4 @@
-.main-homecontainer{
+.main-homecontainer {
     font-family: 'Roboto', sans-serif;
     min-height: 550px;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.home-container{
+.home-container {
     padding: 20px;
     width: 800px;
     margin: 40px auto;
@@ -16,10 +16,10 @@
     flex-direction: row;
 }
 
-.info{
+.info {
     display: flex;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -57,57 +57,86 @@
 }
 
 
-.info h1{
+.info h1 {
     font-size: 3rem;
     margin: 0;
 }
 
-.info h2{
+.info h2 {
     font-size: 1.5rem;
     margin: 2 0;
 }
 
-.mini-bio div{
+.mini-bio div {
     margin: 5px;
     cursor: pointer;
     transition: transform 0.3s ease-out;
 }
 
-.mini-bio div:hover{
+.mini-bio div:hover {
     transform: translateY(-5px);
 }
 
 
-.image{
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.socials{
+.socials {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 150px;
     margin-top: 20px;
 }
 
-.socials a{
+.socials a {
     color: inherit;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
-.socials a:hover{
+.socials a:hover {
     color: grey;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
-.facebook, .github, .linkedin, .reddit{
-    font-size: 2.5rem;
-}
-
-
-.image img{
+.image img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    box-shadow: #a5c1e14d 0px 0px 0px 7px;
+}
+
+/* For desktop screens */
+.name h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.position h2{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* For tablet screens */
+@media (max-width: 768px){
+    .name h1{
+        font-size: 2.5rem;
+    }
+
+    .position h2{
+        font-size: 1.2rem;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .name h1 {
+        font-size: 2rem;
+    }
+
+    .position h2 {
+        font-size: 1rem;
+    }
 }

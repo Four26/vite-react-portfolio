@@ -48,10 +48,14 @@ const Home = () => {
                             flexDirection: 'column',
                         }}
                     >
-                        <h1>
-                            Hi <span className='wave-icon'>👋</span>, I'm {info.firstName}
-                        </h1>
-                        <h2>I'm a {info.position}</h2>
+                        <div className="name">
+                            <h1>
+                                Hi <span className='wave-icon'>👋</span>, I'm {info.firstName}
+                            </h1>
+                        </div>
+                        <div className="position">
+                            <h2>I'm a {info.position}</h2>
+                        </div>
                         <div className="mini-bio">
                             {info.miniBio.map((item, index) => (
                                 <Box
