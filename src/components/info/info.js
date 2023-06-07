@@ -81,7 +81,7 @@ export const info = {
         },
         {
             title: 'Personal Portfolio',
-            live: 'https://frankportfolio-four26.vercel.app/',
+            live: 'https://frank-tech.vercel.app/',
             source: 'https://github.com/Four26',
             image: mock2
         },
