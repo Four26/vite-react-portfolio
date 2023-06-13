@@ -8,7 +8,7 @@ import mock5 from '../../assets/images/mock5.png';
 export const info = {
     firstName: 'Franklin',
     lastName: 'Abonero',
-    position: 'Frontend Developer',
+    position: 'Web Developer',
     selfPortrait: self,
     miniBio: [
         {
