@@ -51,7 +51,7 @@ export const info = {
             label: 'resume'
         }
     ],
-    bio: "I'm Franklin Abonero, a Computer Engineering graduate specializing in frontend development. I have expertise in HTML, CSS, JavaScript, and React, with a focus on creating visually appealing and responsive websites. Additionally, I'm proficient in backend technologies like PHP, WordPress, Express, and Node.js, enabling me to develop dynamic web applications. I'm actively seeking opportunities to contribute my skills and collaborate on high-quality web projects. If you have any questions or suitable opportunities, please feel free to reach out. I'm eager to apply my abilities and make a valuable impact in a company.",
+    bio: "I'm Franklin Abonero, a Computer Engineering graduate specializing in web development. I have expertise in HTML, CSS, JavaScript, and React, with a focus on creating visually appealing and responsive websites. Additionally, I'm proficient in backend technologies like PHP, WordPress, Express, and Node.js, enabling me to develop dynamic web applications. I'm actively seeking opportunities to contribute my skills and collaborate on high-quality web projects. If you have any questions or suitable opportunities, please feel free to reach out. I'm eager to apply my abilities and make a valuable impact in a company.",
     skills:
     {
         proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3'],
