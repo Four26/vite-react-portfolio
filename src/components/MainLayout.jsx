@@ -7,11 +7,19 @@ import Portfolio from "./projects/Portfolio";
 
 const MainLayout = () => {
     const [themeMode, setThemeMode] = useState("light");
+    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
     useEffect(() => {
         document.body.classList.add(themeMode);
         return () => document.body.classList.remove(themeMode);
     }, [themeMode]);
+
+    useEffect(()=> {
+        const intervalID = setInterval(()=> {
+            setCurrentYear(new Date().getFullYear());
+        }, 60000);
+        return () => clearInterval(intervalID);
+    }, [])
 
     const handleToggle = () => {
         setThemeMode((themeMode) => (themeMode === "light" ? "dark" : "light"));
@@ -43,7 +51,7 @@ const MainLayout = () => {
             <div className="footer">
                 <div className="paragraph">
                     <p>Created with 💚 by Franklin Abonero</p>
-                    <p>©️ 2023</p>
+                    <p>©️ {currentYear}</p>
                 </div>
             </div>
         </>
