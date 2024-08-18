@@ -4,6 +4,7 @@ import mock2 from '../../assets/images/mock2.png';
 import mock3 from '../../assets/images/mock3.png';
 import mock4 from '../../assets/images/mock4.png';
 import mock5 from '../../assets/images/mock5.png';
+import mock6 from '../../assets/images/mock6.jpg';
 
 export const info = {
     firstName: 'Franklin',
@@ -94,12 +95,20 @@ export const info = {
         {
             title: 'Drawing App',
             live: 'https://drawing-app-five-delta.vercel.app/',
+            source: 'https://github.com/Four26',
             image: mock4
         },
         {
             title: 'Image Search App',
             live: 'https://image-api-ve6r.vercel.app/',
+            source: 'https://github.com/Four26',
             image: mock5
+        },
+        {
+            title: 'Palindrome Checker',
+            live: 'https://palindrome-checker-azure-three.vercel.app/',
+            source: 'https://github.com/Four26',
+            image: mock6
         }
     ]
 }
