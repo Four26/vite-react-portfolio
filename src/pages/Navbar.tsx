@@ -24,7 +24,7 @@ const Navbar = () => {
                                     className="flex items-center gap-2 text-orange-600 hover:text-orange-700 transition-colors"
                                 >
                                     <FaEnvelope className="text-lg" />
-                                    <span className="hidden lg:inline">franklinabonero28@gmail.com</span>
+                                    <span className="hidden lg:inline underline">franklinabonero28@gmail.com</span>
                                 </a>
                             </li>
                             <li>
@@ -49,6 +49,15 @@ const Navbar = () => {
                                     className="hover:text-orange-600 transition-colors"
                                 >
                                     Projects
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-orange-600 transition-colors"
+                                    href="https://drive.google.com/file/d/1PJxdRML58hBh0VoxQStd_CHGDZa5EKIU/view?usp=drive_link">
+                                    Resume
                                 </a>
                             </li>
                         </ul>
