@@ -108,6 +108,15 @@ const Navbar = () => {
                                     Projects
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-orange-600 transition-colors"
+                                    href="https://drive.google.com/file/d/1PJxdRML58hBh0VoxQStd_CHGDZa5EKIU/view?usp=drive_link">
+                                    Resume
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 )}
